@@ -1,0 +1,16 @@
+<images xmlns="http://www.gutenberg.ph/2006/schemas/imageinfo">
+<image path="images/frontcover.jpg" filesize="46925" filedate="2021-08-22 12:08:48" width="466px" height="720px"/>
+<image path="images/initial-a.png" filesize="2959" filedate="2021-08-22 12:02:44" width="86px" height="196px"/>
+<image path="images/initial-e.png" filesize="2751" filedate="2021-08-22 12:02:47" width="83px" height="197px"/>
+<image path="images/initial-o.png" filesize="3028" filedate="2021-08-22 12:02:49" width="84px" height="193px"/>
+<image path="images/ornament01.png" filesize="804" filedate="2021-08-21 21:02:19" width="105px" height="43px"/>
+<image path="images/ornament02.png" filesize="8202" filedate="2021-08-22 12:02:49" width="409px" height="81px"/>
+<image path="images/ornament03.png" filesize="472" filedate="2021-08-22 12:02:50" width="118px" height="17px"/>
+<image path="images/ornament04.png" filesize="6081" filedate="2021-08-22 12:02:50" width="404px" height="70px"/>
+<image path="images/ornament05.png" filesize="810" filedate="2021-08-22 12:02:51" width="143px" height="29px"/>
+<image path="images/ornament06.png" filesize="5712" filedate="2021-08-22 12:02:51" width="380px" height="67px"/>
+<image path="images/ornament07.png" filesize="624" filedate="2021-08-22 12:02:54" width="142px" height="17px"/>
+<image path="images/ornament08.png" filesize="1133" filedate="2021-08-22 12:03:00" width="128px" height="41px"/>
+<image path="images/qr66170.png" filesize="267" filedate="2021-08-30 14:55:08" width="148px" height="148px"/>
+<image path="images/titlepage.png" filesize="4834" filedate="2021-08-22 12:03:04" width="467px" height="720px"/>
+</images>

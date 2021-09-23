@@ -1,0 +1,490 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN" [
+
+    <!ENTITY apos   CDATA "&#x2019;"  --     239 -->
+    <!ENTITY lsquo  CDATA "&#x2018;"  --       1 -->
+    <!ENTITY mdash  CDATA "&#x2014;"  --      79 -->
+    <!ENTITY ndash  CDATA "&#x2013;"  --       3 -->
+    <!ENTITY rdquo  CDATA "&#x201D;"  --      33 -->
+    <!ENTITY rsquo  CDATA "&#x2019;"  --       1 -->
+
+]>
+<TEI.2 lang=nl-1900>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>A-Saga, E-Legende, O-Sprook</title>
+<author key="Bosscha, Johannes" ref="https://viaf.org/viaf/170575703/">Johannes Bosscha (1797&ndash;1874)</author>
+<author key="Lennep, Jacob van" ref="https://viaf.org/viaf/32302512/">Jacob van Lennep (1802&ndash;1868)</author>
+<author key="Hoeven, Abraham des Amorie van der " ref="https://viaf.org/viaf/79402952/">Abraham des Amorie van der Hoeven (1798&ndash;1855)</author>
+<respStmt><resp lang=en>Transcription</resp> <name key="Hellingman, Jeroen">Jeroen Hellingman</name></respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>Project Gutenberg</publisher>
+<pubPlace>Urbana, Illinois, USA.</pubPlace>
+<idno type=OLN>#####</idno>
+<idno type=OLW>#####</idno>
+<idno type=OCLC>#####</idno>
+<idno type=LibThing>#####</idno>
+<idno type=PGclearance>20210124142505bosscha</idno>
+<idno type=PGDPProjectId>projectID600fc3d7b4aaf</idno>
+<idno type=PGSrc>66170-Bosscha-A-Saga-E-Legende-O-Sprook</idno>
+<idno type=epub-id>urn:uuid:d9e1f42c-55e3-45f2-aadf-bba43dcdabfc</idno>
+<idno type=PGnum>66170</idno>
+<date>2021-08-30</date>
+<availability lang=nl>
+<p>&availability.nl;
+
+<p>Dit eBoek is geproduceerd door het on-line gedistribueerd correctieteam op <xref url="https://www.pgdp.net/">www.pgdp.net</xref>.
+
+</availability>
+</publicationStmt>
+<notesStmt>
+    <note type=Description>Dit boekje is een literair curieusum dat vooral de liefhebbers van &lsquo;Opperlandse Taal- en Letterkunde&rsquo; zal aanspreken. De A-Saga bevat van de klinkers alleen de a, de E-Legende herhaalt het grapje voor de letter e, en het O-Sprook, tot slot, met de o. Dat dit niet leidt tot hoogstaand proza is evident, maar het resultaat is wel grappig.</note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<author>J. Bosscha</author>
+<author>J. van Lennep</author>
+<author>Abr. des Amorie van der Hoeven</author>
+<title>A-Saga, E-Legende, O-Sprook</title>
+<date>1879</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc lang=nl>
+    <p>Dit boek is weergegeven in oorspronkelijke schrijfwijze. Afgebroken woorden aan het einde van de regel zijn stilzwijgend hersteld. Kennelijke zetfouten in het origineel zijn verbeterd. Deze verbeteringen zijn aangegeven in de colofon aan het einde van dit boek.</p>
+
+    <!-- Alternatieve versie: https://www.dbnl.org/tekst/_taa014197001_01/_taa014197001_01_0017.php -->
+
+    <tagsDecl lang=xx>
+        <rendition selector=".anotes">
+            font-size: small;
+            margin: 1em 10%;
+            border-top: 1pt solid black;
+            border-bottom: 1pt solid black;
+        </rendition>
+        <rendition selector=".tpinit">
+            font-size: 160%;
+            font-weight: bold;
+        </rendition>
+    </tagsDecl>
+</encodingDesc>
+<profileDesc>
+    <langUsage lang=nl>
+        <language id=nl-1900>Nederlands (Spelling De Vries-Te Winkel)</language>
+        <language id=nl>Nederlands</language>
+        <language id=en>Engels</language>
+        <language id=de>Duits</language>
+        <language id=xx>Geen taalkundige inhoud</language>
+    </langUsage>
+    <textClass>
+        <keywords>
+            <list>
+                <item>#####</item>
+            </list>
+        </keywords>
+    </textClass>
+</profileDesc>
+<revisionDesc>
+    <list>
+        <item>2021-08-21 Begonnen.
+    </list>
+</revisionDesc>
+</teiHeader>
+<text rend="stylesheet(style/classic.css)">
+<front id=frontmatter>
+<div1 id=cover type=Cover>
+
+
+<p><figure id=cover-image rend="image(images/frontcover.jpg)">
+<figDesc>Oorspronkelijke voorkant.</figDesc>
+</figure>
+
+
+<!--
+A-saga. E-legende.
+O-sprook.
+
+Tweede Oplage.
+
+AMSTERDAM,
+P. N. VAN KAMPEN & ZOON
+1879.
+-->
+
+
+<pb>
+<div1 id=french type=FrenchTitle>
+
+
+<p rend="align(center) font-size(large)"><hi rend=sc>A-saga. E-legende. O-sprook.</hi>
+
+
+
+<pb>
+<div1 id=titlepage type=TitlePage>
+
+
+<p><figure id=titlepage-image rend="image(images/titlepage.png)">
+<figDesc>Oorspronkelijke titelpagina.</figDesc>
+</figure>
+
+
+<titlePage>
+<docTitle><titlePart><hi rend=tpinit>A</hi>-SAGA. <hi rend=tpinit>E</hi>-LEGENDE. <hi rend=tpinit>O</hi>-SPROOK.</titlePart></docTitle>
+
+<docImprint><hi>Tweede Oplage.</hi>
+<lb>AMSTERDAM,
+<lb>P. N. VAN KAMPEN &amp; ZOON.
+<lb><docdate>1879.</docDate>
+</docImprint>
+</titlePage>
+
+
+
+
+<pb id=pb5 n=5>
+<div1 id=preface type=Preface rend="toc-head(VOORWOORD.)">
+
+
+<p><hi>De uitgevers verheugen zich in de gelegenheid te zijn, het letterkundige publiek hierbij eene litterarische curiositeit aan te bieden, die ongeveer veertig jaar geleden de algemeene belangstelling trok als eene proeve van den rijkdom onzer taal en de grondige taalkennis van de drie bekwame mannen die zich met de samenstelling daarvan onledig hielden.</hi>
+
+<p><hi>De</hi> A-Saga <hi>toch is van de hand van wijlen</hi> Prof. <hi rend=sc>J. Bosscha</hi>; <hi>de</hi> E-Legende <hi>van wijlen</hi> Mr. <hi rend=sc>Jacob van Lennep</hi>; <hi>de</hi> O-Sprook <hi>van wijlen</hi> Dr. <hi rend=sc>Abr. des Amorie van der Hoeven Jr.</hi> <hi>Slechts de laatste verscheen in den handel; de beide eersten werden alleen voor vrienden gedrukt.</hi>
+
+<pb id=pb6 n=6><milestone unit=tb>
+
+<p><hi>Door welwillende toestemming van de betrekkingen der beide eerstgenoemde auteurs werden de uitgevers in staat gesteld deze gezamenlijke uitgave te doen plaats hebben.</hi>
+
+
+<p><figure id=o1 rend="image(images/ornament01.png)">
+<figDesc>Ornament.</figDesc>
+</figure>
+
+
+
+<pb id=pb7 n=7>
+</front>
+<body>
+<div1 id=asaga type=Chapter>
+<head rend="image(images/ornament02.png)">PAASCHMAANDAG.</head>
+
+<head type=sub>A-SAGA.</head>
+
+
+    <pb id=pb8 n=8><p rend="align(center)"><hi>&apos;t Lam was haar kaars.</hi>
+
+
+<pb id=pb9 n=9><p rend="initial-offset(90px) initial-width(86px) initial-height(106px) initial-image(images/initial-a.png)">Alarm, Alarm!&rdquo; galmt gansch <hi>Walacra</hi>: want <hi rend=sc>Haralds</hi> aanmarsch jaagt angst aan, aan al wat aâmt.
+
+<p><hi rend=sc>Harald</hi> was Jarl van <hi>Laaland</hi>. &apos;t Zwaard&mdash;dacht Harald&mdash;»baant &apos;t pad naar &apos;t Walhalla;&rdquo; vandaar, dat <hi rend=sc>Harald</hi> zwalkt, strand af, strand aan; vandaar, dat <hi rend=sc>Haralds</hi> zwaard landplaag was van al wat aan &apos;t strand lag,&mdash;<hi>Aadlaar van</hi> <hi rend=sc>Ran</hi>, was vaak <hi rend=sc>Haralds</hi> naam.
+
+<p>Thans klampt <hi rend=sc>Harald</hi> &apos;t strand aan van <hi>Walacra</hi>. Al wat kan, aanvaardt &apos;t staal maar<corr>.</corr> Ach! dag van ramp! <hi rend=sc>Haralds</hi> schaar valt aan; &apos;t slagzwaard vlamt; landzaat naast landzaat valt: Ja<corr sic=.>,</corr> <hi rend=sc>Harald</hi> waagt d&apos; aanval van <hi>Walacra&apos;s</hi> stad, d&apos; aanval van <hi>Aarstad</hi>, <pb id=pb10 n=10>waar <hi rend=sc>Alward</hi>, Markgraaf van <hi>Walacra</hi>, standplaats had.
+
+<p>Dáár, zat <hi rend=sc>Ada</hi> aan &apos;t glasraam van <hi rend=sc>Alwards</hi> hal; angst prangt haar hart: want, nadat &apos;t graf al <hi rend=sc>Ada&apos;s</hi> maagschap van haar nam, nam <hi rend=sc>Alwards</hi> gâ haar aan; <hi rend=sc>Alwards</hi> gâ lag dáár, waar al <hi rend=sc>Ada&apos;s</hi> maagschap was; thans was <hi rend=sc>Alward</hi> haar raadsman, haar arm, haar al. Ach! als <hi rend=sc>Alward</hi> valt!&mdash;Maar <hi>Aarstad</hi>, waar <hi rend=sc>Alwards</hi> manschap pal staat, slaat <hi rend=sc>Haralds</hi> aanval af: <hi>Laalands</hi> schaar nam d&apos;afmarsch aan naar &apos;t strand.
+
+<p>Wat was <hi rend=sc>Ada</hi> zacht van aard! aan al wat arm, aan al wat krank was, gaf haar hart gaarn al wat haar hand had.&mdash;Na d&apos; afmarsch van <hi rend=sc>Harald&apos;s</hi> manschap, hangt Ada haar mand aan d&apos; arm, gaat dáár waar &apos;s landmans ramp &apos;t zwaarst was, laaft, vraagt, raadt, paart traan aan traan. Dat haar pad afdwaalt van <hi rend=sc>Alwards</hi> wal,&mdash;wat dacht <hi rend=sc>Ada</hi> daaraan?&mdash;
+
+<milestone unit=tb rend="image(images/ornament03.png)">
+
+<pb id=pb11 n=11><p>&apos;t Was nacht; <hi rend=sc>Haralds</hi> manschap slaapt; maar <hi rend=sc>Harald</hi> zat aan &apos;t strand. Naast <hi rend=sc>Harald</hi> zat Skalk <hi rend=sc>Adgar</hi>.
+
+<p>»Wat was dat daar, <hi rend=sc>Adgar</hi>?&rdquo;&mdash;vraagt <hi rend=sc>Harald</hi>. »Wat dat was?<corr>&rdquo;</corr>&mdash;sprak <hi rend=sc>Adgar</hi>&mdash;<corr>»</corr>d&apos;Aardman dwaalt langs &apos;t strand. Zacht, zacht! Aardman klaagt; Aardmans klagt was maatzang.&rdquo;&mdash;»Ba! dat gaat lafaards aan, wat Aardman snapt,&rdquo; sprak <hi rend=sc>Harald</hi>.&mdash;Lafaard?&mdash;wáár was <hi rend=sc>Adgar</hi> dat? maar <hi rend=sc>Adgar</hi> las &apos;t blad van <hi rend=sc>Braga&apos;s</hi> waarspraak, alwaar dat staat wat <hi rend=sc>Braga</hi> raadzaam acht dat d&apos;aard, van al wat haar wacht, raadt.&rdquo;&mdash;»Wat waarspraak was dat dan, waar g&apos; aan dacht?&rdquo; vraagt <hi rend=sc>Harald</hi>. <hi rend=sc>Adgar</hi> gaat staan, staart strak &apos;t maanvlak aan; gansch aandacht, als &apos;t past, sprak <hi rend=sc>Adgar</hi>:
+
+
+<lg type=Group>
+    <l>»Als &apos;t strand &apos;s nachts Aardmans klaagzang slaakt,
+    <l>Als &apos;t raafzwart daags aan &apos;t zwaanblank raakt;
+    <l>Als <hi rend=sc>Wara</hi> &apos;t hart van d&apos;Aad&apos;laar blaakt,
+    <l>Staat <hi rend=sc>Astara</hi> haar naam, haar staf,
+    <l>Aan &apos;t Lam van &apos;t Karavaanland af.&rdquo;
+</lg>
+
+
+<pb id=pb12 n=12><p><hi rend=sc>Haralds</hi>&mdash;»Wartaal! wartaal!&rdquo;&mdash;brak <hi rend=sc>Adgars</hi> nachtspraak af; maar <hi rend=sc>Adgar</hi> dacht na; want <hi rend=sc>Adgar</hi> lascht Aardmans klagt vast aan <hi rend=sc>Braga&apos;s</hi> waarspraak.
+
+<milestone unit=tb rend="image(images/ornament03.png)">
+
+<p>Landwaarts, aan wat kant <hi>Aarstad</hi> lag, had <hi rend=sc>Tjalf</hi>, <hi rend=sc>Haralds</hi> Vasal, twaalf man van <hi>Laalands</hi> manschap als wacht staan. &apos;t Was al dag, althans d&apos;aanbraak daarvan, als <hi rend=sc>Haralds</hi> wachtplaats schalt van <hi rend=sc>Tjalfs</hi> galm: »Vangst! Ha, nachtraaf van <hi>Walacra!</hi> vangst!&rdquo;&mdash;<hi rend=sc>Tjalf</hi> bragt <hi rend=sc>Ada</hi> aan; <hi rend=sc>Ada</hi> was <hi rend=sc>Tjalfs</hi> vangst.
+
+<p>Langzaam trad <hi rend=sc>Ada</hi> naar <hi rend=sc>Harald</hi>; haar gang was achtbaar: want <hi rend=sc>Ada&apos;s</hi> hart was kalm. Haar lang haar daalt af langs haar hals, blank als zwaanvacht; zwart was haar tabbaard, waarlangs haar arm, als van albast, afhangt.
+
+<pb id=pb13 n=13><p>»Maagd!&mdash;vangt <hi rend=sc>Harald</hi> aan&mdash;naam? maagschap? stand? van waar kwaamt g&apos; aan &apos;t kamp van <hi rend=sc>Harald</hi>?&rdquo;&mdash;; »Man van &apos;t zwaard? sprak <hi rend=sc>Ada</hi>&mdash;wat draalt dat zwaard? <hi rend=sc>Ada</hi> wacht kalm af, wat d&apos;Almagt raadslaagt&mdash;<hi rend=sc>Ada!</hi>&mdash;was thans <hi rend=sc>Haralds</hi> taal&mdash;als wraak, als haat <hi rend=sc>Haralds</hi> hart aansart, als &apos;t Walhalla dat hart aanlacht: dan blaakt dat hart van gramschap; dan vlamt <hi rend=sc>Haralds</hi> hand van &apos;t slagzwaard. Maar, wars van al wat laag was, van al wat barbaarsch, was <hi rend=sc>Haralds</hi> hart vaak zacht als was.&rdquo;
+
+<p>Wat <hi rend=sc>Harald</hi> daar sprak, brak <hi rend=sc>Ada&apos;s</hi> hart, &apos;t was als gaf &apos;t haar smart, dat haar taal wat hard was, wat smaads aanbragt aan <hi>Laalands</hi> Jarl. Wat thans haar taal was maakt, dat <hi rend=sc>Harald</hi> kan nagaan, van waar z&apos;aan <hi rend=sc>Tjalfs</hi> wacht kwam, wat haar daar bragt. »Maak staat,&mdash;sprak <hi rend=sc>Harald</hi>&mdash;maak staat, <hi rend=sc>Ada</hi>, dat <hi rend=sc>Haralds</hi> hart thans zacht slaat. <hi rend=sc>Ada</hi> ga, vanwaar <hi rend=sc>Ada</hi> kwam maar als <hi rend=sc>Ada&apos;s</hi> dankbaar hart &apos;t pand was, dat Markgraaf <hi rend=sc>Alward</hi> <hi rend=sc>Haralds</hi> handslag <pb id=pb14 n=14>aannam, dan maakt, aan &apos;t strand van <hi>Walacra</hi>, kamp, manslag, wandaad, ras plaats aan zang, aan dans, aan gastmaal.&rdquo;
+
+<p>Wat <hi rend=sc>Ada</hi> daarna sprak, laat d&apos;A-Saga daar. Maar alras zat <hi rend=sc>Ada</hi>, als &apos;t plag, aan &apos;t glasraam van <hi rend=sc>Alwards</hi> hal. Wat thans haar dáár prangd&apos; aan &apos;t hart, was, dat <hi rend=sc>Harald</hi> <hi rend=sc>Baäl</hi> aanbad, dat <hi rend=sc>Harald</hi> dat smaadt, waaraan gansch haar hart hangt.
+
+<p>Wat <hi rend=sc>Harald</hi> aangaat, <hi rend=sc>Harald</hi> stapt lang, dan aan &apos;t strand, dan landwaarts langs &apos;t pad, dat van &apos;t kamp naar <hi>Aarstad</hi> gaat: &apos;t was dagklaar, dat daar wat knaagd&apos; aan &apos;t hart van <hi>Laalands</hi> Jarl. Maar <hi rend=sc>Adgar</hi> zat kalm aan &apos;t strand; <hi rend=sc>Adgar</hi> dacht na: want <hi rend=sc>Adgar</hi> lascht &apos;t blank van <hi rend=sc>Ada</hi> naast &apos;t zwart van haar tabbaard, vast aan Aardmans klagt, aan <hi rend=sc>Braga&apos;s</hi> waarspraak.
+
+<milestone unit=tb rend="image(images/ornament03.png)">
+
+<p>Wat <hi rend=sc>Harald</hi> sprak van <hi rend=sc>Ada&apos;s</hi> dankbaar hart, van handslag, van gastmaal, was ras <pb id=pb15 n=15>daadzaak. Naar d&apos;afspraak, staakt <hi rend=sc>Harald</hi> all&apos; aanval, staat <hi rend=sc>Haralds</hi> kamp vrank aan &apos;t strand, gaat <hi>Laalands</hi> manschap, als &apos;t pas gaf, naar <hi>Aarstad</hi>; naast &apos;t kamp had <hi>Walacra&apos;s</hi> landman marktplaats. Vaak kwam <hi rend=sc>Harald</hi> naar <hi>Aarstad</hi> waar dan <hi>d&apos;Aadlaar van</hi> <hi rend=sc>Ran</hi> aanzat aan &apos;t gastmaal van Markgraaf <hi rend=sc>Alward</hi>; ja, als &apos;t valt, paart <hi rend=sc>Harald</hi> <hi>Laalands</hi> zang aan <hi rend=sc>Ada&apos;s</hi> harpsnaar. Maar,&mdash;wat dag aan dag plaats had, was, dat d&apos;Abt van <hi>Aarstad</hi> naar &apos;t kamp kwam van <hi rend=sc>Harald</hi>, waar dan <hi rend=sc>Adgars</hi> handslag &apos;t warmst was. Wat aandrang &apos;s mans achtbaar hart als jaagt naar &apos;t kamp van <hi>Laalands</hi> manschap, daarvan waagt alras gansch <hi>Walacra</hi>, ja, land aan land. Want, als &apos;t Paaschmaandag was, bragt d&apos;Abt van <hi>Aarstad</hi> <hi rend=sc>Harald</hi>, <hi rend=sc>Adgar</hi>, <hi rend=sc>Tjalf</hi>, tal van <hi>Laalands</hi> manschap&mdash;naar &apos;t waschbad, dat d&apos;Almagt aan d&apos;aard gaf als &apos;t pand van haar raadslag.
+
+<p>Daags daaraan trad <hi rend=sc>Ada</hi> aan <hi rend=sc>Haralds</hi> hand naar &apos;t altaar.
+
+<p><corr>»</corr>Gaat,&mdash;sprak d&apos;Abt van <hi>Aarstad</hi>,&mdash;<pb id=pb16 n=16>gaat hand aan hand, hart aan hart. Kracht van d&apos;Almagt, schraag d&apos;arm van <hi rend=sc>Harald</hi>, maar dat <hi rend=sc>Haralds</hi> hand thans &apos;t zwaard draag van <hi rend=sc>Asa</hi>! kaars van &apos;t hart van <hi rend=sc>Ada</hi>, lamp langs &apos;t pad van <hi rend=sc>Harald</hi>, straal glans af dáár waar &apos;t nacht was! Dan,&mdash;wandlaars t&apos; zaam naar &apos;t graf!&mdash;dan wacht namaals dat <hi>Canaän</hi>, waarnaar &apos;t hart smacht van al wat d&apos;Almacht aanbad naar haar raad!&rdquo;
+
+<p>Thans lag kaag naast kaag klaar aan &apos;t strand; <hi rend=sc>Haralds</hi> Drakar draagt vlag, krans, palmtak. Alras had d&apos;afvaart plaats van &apos;t paar; d&apos;afvaart van <hi rend=sc>Haralds</hi> manschap naar <hi>Laaland</hi>. &apos;t Was &apos;t laatst dat strand aan strand <hi>d&apos;Aadlaar van</hi> <hi rend=sc>Ran</hi> zag. Straks stapt <hi rend=sc>Ada</hi>, aan <hi rend=sc>Haralds</hi> hand, aan wal van &apos;t land vanwaar <hi rend=sc>Harald</hi> kwam.
+
+<p>Zwaar was daar <hi rend=sc>Haralds</hi> taak: want <hi>Laalands</hi> Jarls staan naar <hi rend=sc>Haralds</hi> land; &apos;t raast al van wraak, dat <hi rend=sc>Harald</hi> afstaat van &apos;t Walhalla. Maar &apos;t zwaard van <hi rend=sc>Harald</hi>, &apos;t hart van <hi rend=sc>Ada</hi>, d&apos;aandrang van <hi rend=sc>Adgars</hi> taal, schaard&apos; al wat braaf was aan <hi rend=sc>Haralds</hi> <pb id=pb17 n=17>kant. Gansch <hi>Laaland</hi> draagt <hi rend=sc>Haralds</hi> vaan.
+
+<p>&apos;t Jaar daarna, als &apos;t Paaschmaandag was, bragt <hi rend=sc>Harald</hi> al wat Vasal was t&apos; zaam, aan d&apos;afbraak van &apos;t laatst altaar van <hi rend=sc>Astara</hi>. Daar sprak <hi rend=sc>Adgars</hi> krachttaal van &apos;t Lam, dat was van d&apos;aanvang af. Dankbaar zag <hi rend=sc>Harald</hi> <hi rend=sc>Ada</hi> aan; <hi rend=sc>Harald</hi> dacht aan &apos;t strand, waar <hi rend=sc>Adgar</hi> sprak van &apos;t Lam van <hi rend=sc>Braga&apos;s</hi> waarspraak: <hi rend=sc>Astara&apos;s</hi> naamdag was thans Paaschmaandag.
+
+
+<p><figure id=o2 rend="image(images/ornament01.png)">
+<figDesc>Ornament.</figDesc>
+</figure>
+
+
+    <pb id=pb18 n=18><p rend="anotes"><hi>Walacra</hi>, onbekend gedeelte van Oud-<hi>Holland</hi> of <hi>Zeeland</hi>.&mdash;<hi rend=sc>Jarl</hi>, Opperhoofd bij de Noormannen.&mdash;<hi>Walhalla</hi>, Helden-paradijs.&mdash;<hi rend=sc>Ran</hi>, Godin der Zee.&mdash;<hi rend=sc>Braga</hi>, Bescherm-God der Skalden, God der poëzy en der profecy.&mdash;<hi rend=sc>Wara</hi>, Godin der Liefde.&mdash;<hi rend=sc>Astara</hi>, Oostersche naam van de Godin <hi>Easter</hi> of <hi>Ostra</hi>, naar welke Paschen in &apos;t Hoogduitsch <hi lang=de>Ostern</hi>, in het Engelsch <hi lang=en>Eastern</hi> heet.&mdash;<hi rend=sc>Asa</hi>, <xref url="bib:2 Chr 14:2-4">II Chron. XIV: vs. 2 en volgg</xref>.&mdash;<hi>Drakar</hi>, voornaam schip van de Noormannen.
+
+
+
+
+
+
+<pb id=pb19 n=19>
+<div1 id=elegende>
+<head rend="image(images/ornament04.png)">DE E-LEGENDE.</head>
+
+
+    <pb id=pb20 n=20><p rend="align(center)"><hi>Lees&mdash;en Beef!</hi>
+
+
+<pb id=pb21 n=21><p rend="initial-offset(90px) initial-width(83px) initial-height(107px) initial-image(images/initial-e.png)">Een vreemde heerscher betreedt <hi rend=sc>Berthes</hi> erfdeel. Geen der edelen wederspreekt des wreeden <hi rend=sc>Werners</hi> recht, het recht des sterksten. De vreemde heerscher, ten zetel der Wenden verheven, geeft het bevel: »Breng <hi rend=sc>Berthe</hi> weg. Geen mensch helpe de zwervende: geen mensch geve der vernederde eten, dek en legerstede.&rdquo;
+
+<p>Zeven weken heeft de verwezene <hi rend=sc>Berthe</hi> het zwervend leven gerekt en geweend. Geen mensch vergezelde de wees, des edelen <hi rend=sc>Egberts</hi> telg<corr sic=",">.</corr> Geen klepper, geen ezel zelf bereed ze.&mdash;De teedere wees heeft vergeefs gesmeekt. Nergens een helper: nergens verstrekt men <hi rend=sc>Berthe</hi> legerstede en herberg. <pb id=pb22 n=22>De peen, de bessen des velds geven eten: de beek en de melk des vees drenken de zwervende.
+
+<p><hi rend=sc>Berthe</hi> bestreedt geen bekende streken meer: het felle weer, de <corr sic=elende>ellende</corr>, het leed bestelpen de tengere wees.
+
+<p>De breede zee lekt den verhevenen berg. Een herder scheert het kleene vee: de weenende <hi rend=sc>Berthe</hi> treedt hem tegen en smeekt met een bezweken stem, een beetje eten. De herder brengt het: meel en reevleesch versterken de stervende, en, veel meer, des herders redenen. De vergeten herder heeft de sterrenbeelden leeren kennen, en weet den mensch te spellen, hetgeen hem de Hemel eens bestemt en bedeelt. De herder, met <hi rend=sc>Berthe</hi> neergezeten, leest de teekenen des Hemels en spreekt deze regels:
+
+
+<lg>
+    <l>»Wen &apos;t wezeltjen den Held verzelt,
+    <l>En hem de Beer een preek vertelt,
+    <l>Heerscht <hi rend=sc>Berthe</hi> weer, met eer hersteld.&rdquo;
+</lg>
+
+
+<p>De herder heeft gezwegen en wenkt <hi rend=sc>Berthe</hi>, verder te trekken. Ze heeft hem <pb id=pb23 n=23>begeven. Steeds beklemmen vrees en wee het herte der weeze. Weer zeven weken zwerft ze verder en verder, en wenscht te sterven.
+
+<p>De lente verdween. Berken en esschen en elzen werden geel. Geen vee betreedt meer het veld en deelt melk mede. De regen klettert: meeren en beken zwellen. <hi rend=sc>Berthe</hi> verwenscht het leven en het levenswee. Het sterven, denkt ze, geeft vrede: geen leed, geen letsel deert meer. Tegen een berg gezeten, smeekt ze den Hemel, den engel des verderfs te zenden. Wee! het steen beweegt: nevens de bevende <hi rend=sc>Berthe</hi> treedt een beer met gesperden bek.&mdash;Neen!&mdash;Het gevreesde beest werpt het beerenvel weg. Het kleed bedekte en verbergde den Deken der Stevenskerk, den geëerden <hi rend=sc>Peter</hi>, mede geweken wegens de vergedreven wreedheden des wrevelen <hi rend=sc>Werners</hi>.
+
+<p><hi rend=sc>Berthe</hi> herleeft: ze spreekt met <hi rend=sc>Peter</hi> en meldt hem de redenen des herders. Sprekende vernemen ze ergens een gewemel en het wrenschen eens rennenden kleppers. Een <pb id=pb24 n=24>derde zwerver betreedt de plek. Ver heeft de vreemde gereden: het zweet bedekt hem en den klepper. De heldendegen knettert hem tegen de lendenen.
+
+<p>De vreemde held heeft den knellenden helm nedergezet. Hemel! <hi rend=sc>Berthe</hi> verbleekt: de helm heeft ten veldteeken een wezel. Ze herkent <hi rend=sc>Ethelbert</hi>, den Zweed.&mdash;De Deken der Stevenskerk spreekt met hem en meldt hem hetgeen de wreede <hi rend=sc>Werner</hi> deed, en schetst hem <hi rend=sc>Berthes</hi> leed en tegenheden. Het wezen des edelen <hi rend=sc>Ethelberts</hi> betrekt. Den wrevelen <hi rend=sc>Werner</hi> verwenschende, trekt de held den scherpen degen en zweert, <hi rend=sc>Berthes</hi> redder en helper te wezen en <hi rend=sc>Egberts</hi> telg ten zetel te herstellen. De preek des verkleeden <hi rend=sc>Peters</hi> heeft gewerkt. <hi rend=sc>Berthe</hi> herdenkt des herders redenen en hetgeen deze spelde.
+
+<p><hi rend=sc>Ethelbert</hi> heeft sterke benden vereend: de veldteekenen geven dezen regel te lezen: »<hi rend=sc>Berthe</hi> leve en regeere! De wreede <hi rend=sc>Werner</hi> sterve!&rdquo;
+
+<pb id=pb25 n=25><p><hi rend=sc>Werner</hi> heeft mede het veld met legers bedekt. Men velt de speeren: men trekt het welgewet geweer, de degens kletteren. <hi rend=sc>Berthes</hi> held heeft het gevreesde lemmer geheven en rent den wrevelen <hi rend=sc>Werner</hi> tegen. Des degens scherpe snede heeft <hi rend=sc>Werners</hi> sterken helm gespleten, en deze, neergezegen, heeft den veegen geest gegeven. Geen der metgezellen des vreemden heerschers wederstreeft meer den edelen Zweed: enkelen sneven, velen vreezen en smeeken het leven; de meesten leggen degens en speeren neder. <hi rend=sc>Ethelbert</hi> heeft den zege. <hi rend=sc>Berthes</hi> wreker geeft der weeze het erfdeel der Wenden weder. De teedere <hi rend=sc>Berthe</hi> zweert het te deelen met den edelen beschermer: eene stem, een kreet: »<hi rend=sc>Ethelbert</hi> strekke den Wenden ten Heer en meester! <hi rend=sc>Ethelbert</hi> leve en heersche met <hi rend=sc>Berthe</hi>!&rdquo; vereent edelen en gemeen ter eere des Zweedschen helds. Hem heffen ze met <hi rend=sc>Berthe</hi> ten zetel.
+
+<p>De Deken der Stevenskerk heeft den echt gezegend. Vete en wrevel hebben gezwegen, <pb id=pb26 n=26><hi rend=sc>Berthe</hi> vergeet het geleden leed: de Hemel verleent zegen en vrede, en hetgeen de legende wegens hen vermeldt neemt een
+
+
+<p rend="align(center)">END.
+
+
+<p rend=signed>Lennep,
+<lb>den zevenden September.
+
+
+<p><figure id=o5 rend="image(images/ornament05.png)">
+<figDesc>Ornament.</figDesc>
+</figure>
+
+
+
+
+
+<pb id=pb27 n=27>
+<div1 id=osprook>
+<head rend="image(images/ornament06.png)">COLHOLMS ROOS.</head>
+
+<head type=sub>O-SPROOK.</head>
+
+
+    <pb id=pb28 n=28><p rend="align(center)"><hi rend=sc>Motto</hi>:
+
+    <p rend="align(center)"><hi>&apos;t Schoon lokt tot roof</hi>.
+
+
+<pb id=pb29 n=29><p rend="initial-offset(90px) initial-width(83px) initial-height(103px) initial-image(images/initial-o.png)"><hi rend=sc>Olof</hi> troont op <hi>Colholms</hi> slot, rondom door golf op golf omzoomd: Noordstorm op Noordstorm floot door boog, poort, top. Toch pronkt op <hi rend=sc>Olofs</hi> slot <hi>Colholms</hi> roos, <hi rend=sc>Oldgond</hi>: jong, schoon, blond.
+
+<p>Hoor! <hi rend=sc>Olofs</hi> hoorn klonk, <hi rend=sc>Olofs</hi> woord vloog rond; Noor op Noor spoort &apos;t ros, ront, loopt, komt;&mdash;&apos;t slot wordt vol volks. <hi rend=sc>Olofs</hi> looz&apos; klonk: oorlog! oorlog!&mdash;&apos;t Oog vonkt toorn.
+
+<p>»<hi rend=sc>Olofs</hi> mond noodt ons, <hi rend=sc>Olofs</hi> hoorn noopt ons: Vorst! &apos;t word&apos; ons kond, zoo zorg of nood ontstond voor <hi>Colholm</hi>&rdquo;&mdash;
+
+<p><hi>Bornholms</hi> Vorst, <hi rend=sc>Otto</hi>, komt! <hi rend=sc>Otto</hi> somt d&apos; oorsprong op tot <hi rend=sc>Thor</hi>; <hi rend=sc>Otto&apos;s</hi> <pb id=pb30 n=30>dolk wordt rood door moord op moord. <hi rend=sc>Olof</hi> schroomt <hi rend=sc>Otto</hi> noch ook <hi rend=sc>Thor</hi>,&mdash;doch zorg voorkomt nood. <hi rend=sc>Otto</hi> zond boô op boô om <hi rend=sc>Oldgond</hi>; <hi rend=sc>Oldgonds</hi> schoon ontvonkt&apos; <hi rend=sc>Otto&apos;s</hi> borst; ook komt blos op blos op <hi rend=sc>Oldgonds</hi> koon, zoo <hi rend=sc>Otto&apos;s</hi> boot <hi>Colholms</hi> kom klooft. Doch <hi rend=sc>Olof</hi> zon op &apos;t voorspook,&mdash;<hi rend=sc>Wolf</hi> zong &apos;t:
+
+
+<lg>
+      <l rend="indent(2)">&apos;t Noodlot wordt kond
+          <l rend="indent(4)">Door <hi rend=sc>Wolfs</hi> mond:
+      <l rend="indent(2)"><hi>Colholms</hi> roos, <hi rend=sc>Oldgond</hi>,
+      <l rend="indent(2)">Pronk&apos; op <hi>Colholms</hi> grond;
+        <l rend="indent(4)">Schoon <hi rend=sc>Olofs</hi> zorg,
+        <l rend="indent(4)">Toch <hi rend=sc>Olofs</hi> borg:
+    <l>Zoo <hi rend=sc>Oldgond</hi> wordt ontroofd,
+    <l>&apos;t Kost <hi rend=sc>Olof</hi> troon, slot, hoofd.&mdash;
+</lg>
+
+
+<p>Zoo hoord&apos; <hi rend=sc>Olof</hi> noch <hi rend=sc>Otto</hi>, noch <hi rend=sc>Oldgond</hi>. <hi rend=sc>Otto</hi> bood bond of oorlog; oorlog koos <hi rend=sc>Olof</hi>. <hi>Colholms</hi> slotvoogd sloot <hi rend=sc>Oldgond</hi> op.&rdquo;&mdash;
+
+<p>Nog ontvloot &apos;t woord <hi rend=sc>Olofs</hi> mond,&mdash;op! op! klonk door &apos;t slot; <hi rend=sc>Otto</hi> komt! Boot op boot, vlot op vlot, kog op kog klooft <pb id=pb31 n=31><hi>Colholms</hi> kom!&mdash;»Noor, vorst of volk, volg <hi rend=sc>Olof</hi>!&rdquo; <hi rend=sc>Olof</hi> vloog voor. &apos;t Volk sprong op; &apos;t gordt dolk of pook om; &apos;t torscht boog, knods, pols, rotsbrok, &apos;t slot op; &apos;t lood smolt, kookt,&mdash;zoo <hi rend=sc>Otto</hi> soms storm koos. »Voor <hi>Colholm</hi>, voor <hi rend=sc>Oldgond</hi>!&rdquo; klonk &apos;s volks looz&apos;.&mdash;»Schroom. boos rot! roof zocht <hi>Bornholms</hi> vorst,&mdash;dood wordt <hi rend=sc>Otto&apos;s</hi> loon.&rdquo;&mdash;
+
+<p>Doch <hi rend=sc>Otto</hi>?&mdash;Noch dorst tot roof, noch oorlogsvonk toogt <hi rend=sc>Otto</hi>. Doch <hi rend=sc>Otto&apos;s</hi> borst klopt hoog voor <hi rend=sc>Oldgonds</hi> schoon; <hi rend=sc>Olof</hi> sloot &apos;t oor, schoon <hi rend=sc>Otto</hi> som op som bood voor <hi rend=sc>Oldgond</hi>; <hi rend=sc>Oldgond</hi> zond boô op boô tot <hi rend=sc>Otto</hi>; doof ook voor <hi rend=sc>Oldgond</hi>, sloot <hi rend=sc>Olof</hi> <hi>Colholms</hi> roos op. Droom op droom komt voor <hi rend=sc>Otto&apos;s</hi> spond. <hi rend=sc>Oldgond</hi> spookt <hi>Bornholms</hi> vorst voor &apos;t oog: drop op drop blonk op <hi rend=sc>Olgonds</hi> koon; &apos;t hoofd, omzoomd door lok op lok, hong op <hi rend=sc>Olgonds</hi> borst (Zoo toch &apos;t wolkvocht droop op roos, koorn, ooftknop, trok roos noch ooftknop &apos;t hoofd omhoog, voor &apos;t vocht ontloopt of &apos;t zonros <pb id=pb32 n=32>drop voor drop opslorpt;&mdash;zoo boog <hi>Colholms</hi> roos &apos;t vocht oog, &apos;t blond hoofd). Ook hoort <hi rend=sc>Otto</hi> soms <hi rend=sc>Oldgonds</hi> toon, zoo schoon of &apos;t boschkoor zong; doch &apos;t nokt ook zoo dof, zoo domp, of golf op golf klotst&apos; op boot of rots. Nog schroomt <hi>Bornholms</hi> vorst oorlog, roof, moord. Doch <hi rend=sc>Gothold</hi> komt;&mdash;<hi rend=sc>Gothold</hi> doorgrondt &apos;t Noodlot. Door <hi rend=sc>Thors</hi> bosch doolt <hi rend=sc>Gothold</hi> rond, loof of mos voor spond, noot of schors voor brood, bronvocht voor dronk. &apos;t Rood koord omgordt <hi rend=sc>Gotholds</hi> wolfsbont; <hi rend=sc>Thors</hi> dolk pronkt op Gotholds borst; <hi rend=sc>Thors</hi> stok schoort <hi rend=sc>Gotholds</hi> romp. Wol wordt <hi rend=sc>Gotholds</hi> lok, hoog &apos;t voorhoofd; doch oog noch oor wordt stomp,&mdash;nog doorgrondt <hi rend=sc>Gothold</hi> &apos;t Noodlot.
+
+<p><hi rend=sc>Gothold</hi> stond voor <hi rend=sc>Otto</hi>; &apos;t voorhoofd fronst, &apos;t oog vonkt. »Op, zoon <hi rend=sc>Thors</hi>! <hi>Colholms</hi> roos dort, tot <hi rend=sc>Otto</hi> komt. Poot <hi>Colholms</hi> roos op Bornholms grond. <hi rend=sc>Thor</hi> zond <hi rend=sc>Gothold</hi>!&rdquo;&mdash;
+
+<p>Zoo toog <hi rend=sc>Otto</hi> voort tot <hi>Colholm</hi>. D&apos; <pb id=pb33 n=33>oorlog dook op, spookt &apos;t slot rond, stroopt &apos;t oord bloot. Boog op boog schoot; rotsbrok op rotsbrok gonst, ploft op boot, kog, vlot. Rood wordt <hi>Colholms</hi> kom door moord op moord. <hi rend=sc>Olofs</hi> woord klonk: »o hoon, zoo <hi rend=sc>Otto</hi> <hi rend=sc>Olof</hi> dwong, <hi rend=sc>Oldgond</hi> won!&rdquo; <hi rend=sc>Otto</hi> noopt &apos;t volk: »o hoon, zoo &apos;t slot ons ontsprong, of <hi rend=sc>Olof</hi> &apos;t ontkomt! op, op! voort, voort! Drom op drom storm&apos; &apos;t slot!&rdquo;&mdash;&apos;s Volks borst jookt; &apos;t hoopt op lof of loon. Schot op schot vloog rond, of wolk op wolk &apos;t vocht goot, zoo &apos;t door Noordstorm stold&apos; of vroor tot brok op brok. &apos;t Lood droop op &apos;t hoofd, door d&apos;oorlogsrok tot op &apos;t bloot. Toch drong <hi rend=sc>Otto</hi> voort; toch won <hi rend=sc>Otto</hi> poort voor poort, post voor post. Nog klonk <hi rend=sc>Olofs</hi> oorlogslooz&apos;: »Voor <hi>Colholm</hi>! voor <hi rend=sc>Oldgond</hi>!&rdquo; Doch, hoor,&mdash;dof bomt <hi>Colholms</hi> noodklok. Hoogrood golft rookkolom op rookkolom rond door boog, poort, goot; &apos;t glom, &apos;t koolt, &apos;t gloort; &apos;t vonkt voort, ros stroomt &apos;t op tot dom, top, nok. &apos;t Volk roost door vonk of smoort door rook; &apos;t <pb id=pb34 n=34>wordt hooploos. »&apos;t Wordt stond tot storm!&rdquo; klonk <hi rend=sc>Otto&apos;s</hi> woord. <hi>Bornholms</hi> vorst klom op; &apos;t volk vlood, of&mdash;zoo &apos;t nog schoold&apos; of vocht&mdash;&apos;t stort voor <hi rend=sc>Otto&apos;s</hi> knods. Dol stormt <hi rend=sc>Otto</hi> voort door poort, boog, hol;&mdash;<hi rend=sc>Oldgond</hi> zocht <hi rend=sc>Otto</hi>. Hoor!&mdash;&apos;t slot sprong, &apos;t slot vloog op;&mdash;<hi rend=sc>Oldgond</hi> stond voor <hi rend=sc>Otto&apos;s</hi> oog, schoon, blond, jong. Hoog bloosd&apos; <hi rend=sc>Oldgonds</hi> koon. <hi rend=sc>Otto</hi> stond stom, <hi rend=sc>Otto</hi> vond tong noch woord..... »Los, los! snood, godloos vorst! Dood volgt roof!&rdquo; klonk <hi rend=sc>Olofs</hi> woord. <hi rend=sc>Olof</hi> stort poort, boog, rook door, op <hi rend=sc>Otto</hi>. Hoog blonk <hi rend=sc>Olofs</hi> dolk, blootshoofds stond <hi rend=sc>Otto</hi>;&mdash;doch <hi>Bornholms</hi> vorst sprong op, boog &apos;t hoofd&mdash;<hi rend=sc>Olofs</hi> stoot stompt op <hi rend=sc>Otto&apos;s</hi> dolkknop. <hi rend=sc>Olof</hi> stort;&mdash;doch <hi rend=sc>Oldgond</hi> boog &apos;t hoofd voor <hi rend=sc>Otto</hi>: »<hi>Colholms</hi> roos dronk toch <hi rend=sc>Olofs</hi> bronvocht, <hi rend=sc>Olof</hi> zond toch brood voor <hi rend=sc>Oldgond</hi>!&rdquo;&mdash;»Loof <hi rend=sc>Thor</hi>, Noor!&rdquo; klonk <hi rend=sc>Otto&apos;s</hi> woord: »om <hi rend=sc>Oldgond</hi> wordt noch <hi rend=sc>Otto&apos;s</hi> dolk noch <hi rend=sc>Olofs</hi> borst rood.&rdquo;&mdash;Doch &apos;s Noodlots stond komt: <hi rend=sc>Wolf</hi> zong &apos;t:
+
+
+<pb id=pb35 n=35><lg>
+    <l>Wordt <hi>Colholms</hi> roos ontroofd,
+    <l>&apos;t Kost <hi rend=sc>Olof</hi> slot, troon, hoofd.
+</lg>
+
+
+<p>&apos;t Woord vloog nog op <hi rend=sc>Otto&apos;s</hi> tong, nog stond <hi rend=sc>Otto&apos;s</hi> pook op <hi rend=sc>Olofs</hi> strot,&mdash;och, <hi>Colholms</hi> slotvoogd, vol wrok, boog &apos;t hoofd, wrong &apos;t forsch los, sprong op.... schroom, <hi rend=sc>Otto</hi>!&mdash;Doch <hi rend=sc>Otto</hi> zorgt; <hi rend=sc>Otto</hi> toomt <hi rend=sc>Olofs</hi> sprong; <hi rend=sc>Otto&apos;s</hi> dolk doorboort <hi rend=sc>Olofs</hi> borst door wond op wond.
+
+<milestone unit=tb>
+
+<p>Ton, toorts, kroon, vonkt op <hi>Bornholms</hi> slot. <hi rend=sc>Otto</hi> schonk dronk op dronk rond; <hi rend=sc>Oldgond</hi> dost &apos;t blond hoofd door roos op roos.&mdash;&apos;t Zonros vloog &apos;t bolrond om, rond op rond. Zoon op zoon zoog <hi rend=sc>Oldgonds</hi> borst of sprong op <hi rend=sc>Otto&apos;s</hi> schoot.
+
+<p>Noô komt &apos;t volk tot <hi>Colholms</hi> slot: <hi rend=sc>Olofs</hi> spook doolt rond door poort, hol, boog.
+
+<pb id=pb36 n=36><p><hi rend=sc>Gothold</hi>, <hi rend=sc>Thors</hi> tolk, zong d&apos; O-sprook voor <hi rend=sc>Otto&apos;s</hi> kroost.&mdash;
+
+
+<p rend="align(center)"><hi rend=sc>Slot.</hi>
+
+
+<p><figure id=o7 rend="image(images/ornament07.png)">
+<figDesc>Ornament.</figDesc>
+</figure>
+
+
+</body>
+<back id=backmatter>
+<div1 type=Imprint id=imprint>
+
+
+<p rend="align(center) font-size(small)">Druk van <hi rend=sc>M. J. Portielje</hi>. Amsterdam.
+
+
+</div1>
+
+<divGen id=toc type=toc>
+
+<divGen type=Colophon>
+
+
+</back>
+</text>
+</TEI.2>
+
+<!--
+
+CHECKLIST (X = done; / = not applicable)
+
+Initial cleanup
+
+[ ] Check all pb-tags, and join lines
+[ ] Move all footnotes in-line
+[ ] Tag headers
+[X] Fix all [** Proofer comments]
+[ ] Start all paragraphs with the p-tag
+[ ] Change b, sc, g tags to hi tags with correct attributes.
+[ ] Change tb tags to milestone tags.
+[ ] Fix multiple spaces in a row
+[ ] Verify all paragraphs start with p-tag, also those starting with a tag.
+
+TEI header
+
+[ ] Add TEI header.
+[ ] Fill in details in TEI header
+[ ] Verify Author dates and add to TEI header.
+[ ] Document on-line scan sources.
+[ ] Fill in description in noteStmt.
+[ ] Fill in keywords / Subjects
+[ ] Add auto-generated colophon divGen tag.
+[ ] Fill in reference to LOC record (https://catalog.loc.gov/).
+[ ] Fill in reference to OpenLibrary record (https://openlibrary.org).
+[ ] Fill in reference to WorldCat record (source and work) (https://www.worldcat.org).
+[ ] Generate unique epub-id. (https://www.guidgenerator.com/)
+
+Verse
+
+[X] Tag all verse.
+[X] Apply proper indentation: rend="indent(2)"
+
+Lists
+
+[ ] Tag all lists.
+
+Tables
+
+[ ] Format tables
+[ ] Apply ditto-tags.
+
+Table of Contents
+
+[ ] Format table(s) of contents
+[ ] Link entries in table of contents
+[ ] Verify each link
+[ ] Compare with generated table of contents
+
+Images
+
+[ ] Include all illustrations
+[ ] Verify positioning of images makes sense.
+
+Spelling
+
+[ ] Verify generated wordlist
+[ ] Tag language usage
+
+Tools
+
+[ ] Verify Gutcheck
+[ ] Verify jeebees
+
+Miscellany
+
+[ ] Check for [Greek: ...] notation
+[ ] Curlify quotes
+[ ] Check for wrong quotes
+[ ] Disambiguate single quotes, apostrophes, and primes.
+[ ] Unwrap lines
+[ ] Check for lines not unwrapped
+[ ] Verify sequence of page-numbers
+[ ] Handle fractions, such as 1/2.
+[ ] Converted all fragments in uppercase to mixed case.
+
+Text Version
+
+[ ] Remove FIGURE notations
+[ ] Verify empty lines between chapter headings
+[ ] Verify empty lines around poetry and lists
+[ ] Center poetry
+[ ] Format title page
+[ ] Remove Ads
+[ ] Format Tables
+[ ] Verify Greek and other transliterations
+
+Additional Checks and Edits (Add as needed for a specific book)
+
+[ ] ....
+
+Posting
+
+[ ] Make sure dp-post@pgdp.net is cc-ed on upload
+
+Post-Posting
+
+[ ] Update status to 1.0 (i.e. Posted).
+[ ] Include PG number and posting date in metadata
+
+-->
